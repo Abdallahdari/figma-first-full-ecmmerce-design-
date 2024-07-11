@@ -14,3 +14,6 @@
     background-color:#db4444;
     border-radius:5px;
 }
+.icon:link{
+    color:orange !important;
+}
