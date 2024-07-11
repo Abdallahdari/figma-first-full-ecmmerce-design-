@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.todays{
+    position:relative;
+}
+.todays::before{
+    content: '';
+
+    position:absolute;
+    height:100%;
+    width:25px;
+    background-color:#db4444;
+    border-radius:5px;
+}
