@@ -4,7 +4,7 @@ let Hou=document.querySelector(".Hours")
 let min=document.querySelector(".minutes")
 
 let sece=document.querySelector(".second")
-let time=86400
+let time=259200
 
 const tic=function(){
     const day=Math.trunc((time/3600)/24)
