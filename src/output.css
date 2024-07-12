@@ -805,14 +805,6 @@ video {
   align-self: center;
 }
 
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1029,11 +1021,22 @@ video {
   max-width:1200px;
   -moz-column-gap:20px;
        column-gap:20px;
+  place-items:center;
 }
 
 .gird1{
   width:300px;
   height:350px;
+}
+
+.swiper{
+  display: flex;
+  padding: 3rem 3rem;
+  align-items:ccenter;
+}
+
+.swiper-slide{
+  width:300px !important;
 }
 
 .hover\:bg-black:hover {
@@ -1068,3 +1071,4 @@ video {
     max-width: 1200px;
   }
 }
+
