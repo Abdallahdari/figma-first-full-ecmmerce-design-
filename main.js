@@ -2,6 +2,16 @@ let dayss=document.querySelector(".days")
 let Hou=document.querySelector(".Hours")
 
 let min=document.querySelector(".minutes")
+const btnleft=document.getElementById("btn-left")
+const btnright=document.getElementById("btn-right")
+btnleft.addEventListener('click',function(e){
+    e.preventDefault()
+    console.log(`left button click`) ;
+})
+btnright.addEventListener('click',function(e){
+    e.preventDefault()
+    console.log(`right button click`) ;
+})
 
 let sece=document.querySelector(".second")
 let time=259200
