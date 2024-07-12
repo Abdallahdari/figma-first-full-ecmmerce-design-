@@ -730,6 +730,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1014,29 +1018,22 @@ video {
   border-radius:5px;
 }
 
-.cards-5{
-  padding:2rem 3rem;
-  display:grid;
-  grid-template-columns:repeat(12,1fr);
-  max-width:1200px;
-  -moz-column-gap:20px;
-       column-gap:20px;
-  place-items:center;
-}
+/* .cards-5{
+    padding:2rem 3rem;
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    max-width:1200px;
+    column-gap:20px;
+    place-items:center;
+} */
 
 .gird1{
   width:300px;
   height:350px;
 }
 
-.swiper{
-  display: flex;
-  padding: 3rem 3rem;
-  align-items:ccenter;
-}
-
 .swiper-slide{
-  width:300px !important;
+  max-width:300px;
 }
 
 .hover\:bg-black:hover {

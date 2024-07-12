@@ -40,20 +40,16 @@ tic()
 const interval= setInterval(tic,1000)
 
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    loop: true,
-  
-    // If we need pagination
+    slidesPerView: 1,  // Show one slide at a time
+    slidesPerGroup: 1, // Move one slide at a time
+    loop: false,       // Optional: Disable looping if you don't want infinite scrolling
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
     },
-  
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
-    // And if we need scrollbar
-
   });
+  
