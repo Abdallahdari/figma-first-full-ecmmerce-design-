@@ -39,17 +39,29 @@ else{
 tic()
 const interval= setInterval(tic,1000)
 
-const swiper = new Swiper('.swiper', {
-    slidesPerView: 1,  // Show one slide at a time
-    slidesPerGroup: 1, // Move one slide at a time
-    loop: false,       // Optional: Disable looping if you don't want infinite scrolling
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
+var swiper = new Swiper('.swiper', {
+    slidesPerView: 5,
+    gap:30,
+    direction: getDirection(),
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    on: {
+      resize: function () {
+        swiper.changeDirection(getDirection());
+      },
+      reachEnd: function () {
+        if (swiper.slides.length > swiper.slidesPerView) {
+          swiper.params.slidesPerView = Math.min(swiper.slides.length, swiper.slidesPerView);
+          swiper.update();
+        }
+      },
+    },
   });
-  
+
+function getDirection() {
+    var windowWidth = window.innerWidth;
+    var direction = window.innerWidth <= 460 ? 'vertical' : 'horizontal';
+    return direction;
+}
