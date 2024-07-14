@@ -18,7 +18,7 @@
     <div class=" bg-[#000] ">
     <div class="container mx-auto xl:max-w-[1200px]">
         
-        <div class="flex text-white items-center justify-between gap-72 py-3">
+        <div class="sm:hidden flex text-white items-center justify-between gap-72 py-3">
         <p class="before-navbar ml-auto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#" class="underline ml-2">shopNow</a></p>
     <div class="flex  items-center space-x-2">
         <a  href="#">English</a>
@@ -33,9 +33,9 @@
 <header class="">
 
     <div class="shadow-md py-5">
-    <div class="container mx-auto xl:max-w-[1200px]">
+    <div class="container mx-auto xl:max-w-[1200px] ">
         <!-- navbar desktop -->
-        <nav class="navbar flex items-center justify-between   ">
+        <nav class="navbar sm:hidden flex items-center justify-between   ">
           <h1 class="Logo text-2xl font-semibold">Exclusive</h1>  
 <ul class="links flex items-center space-x-5 ">
     <li><a class="hover:underline transition duration-1000" href="#">Home</a></li>
@@ -70,9 +70,9 @@
     </div>
 </div>
 <div class="container mx-auto xl:max-w-[1200px]">
-<div class=" flex  divide-x-2  ">
-    <div class="sidebar w-1/6 px-4 pt-7">
-        <div class="dropdown flex  justify-between items-center mb-3">
+<div class=" flex sm:flex-col md:flex-row divide-x-2  ">
+    <div class="sidebar sm:flex md:block sm:items-center w-1/6 px-4 pt-7">
+        <div class="dropdown flex   justify-between items-center mb-3">
           <a href=""  class="hover:text-gray-500 hover:underline transition duration-150"> <p>Woman’s Fashion</p></a> 
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12.95 11.636L8 6.68597L9.414 5.27197L15.778 11.636L9.414 18L8 16.586L12.95 11.636Z" fill="black"/>
@@ -647,7 +647,7 @@
 </section>
 <!-- catogries section -->
 <section class="catogoties mt-20">
-    <div class="container mx-auto xl:max-w-[1200px]">
+    <div class="container mx-auto xl:max-w-[1200px] px-4">
 
     <div class="todays">
         <p class="py-5 px-10 font-semibold  text-[#db4444]">Today's</p>
@@ -670,7 +670,7 @@
             </div>
         
          </div>
-<div class="catog-elemest grid grid-cols-6 gap-x-5 mt-5">
+<div class="catog-elemest grid sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-5 mt-5">
     <a href="#" class="hover:bg-red-500 transition duration-200 flex flex-col items-center py-4 border-2 border-gray-200">
 
    
@@ -818,7 +818,7 @@
 </section>
 <!-- Best-selling section -->
 <section class="Best-selling mt-20">
-    <div class="container mx-auto xl:max-w-[1200px]">
+    <div class="container mx-auto xl:max-w-[1200px] px-4">
     <div class="todays">
         <p class="py-5 px-10 font-semibold  text-[#db4444]">Today's</p>
         
@@ -832,7 +832,7 @@
             </div>
         
          </div>
-         <div class="grid grid-cols-4 gap-10">
+         <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
 <div class="grid1">
     <a href="" class="group ">
         <div class="bg-[#f5f5f5] h-64 py-3 px-3 relative">
@@ -1075,7 +1075,7 @@
 <!-- catogires main -->
 <section class="mt-20 mb-20" >
     <div class="container mx-auto xl:max-w-[1200px]">
-        <div class="grid grid-cols-2 py-16 px-10 bg-black">
+        <div class="grid md:grid-cols-2 sm:grid-cols-1 py-16 px-10 bg-black">
             <div class="text-part">
                 <p class="text-[#00FF66] mb-4">Categories</p>
                 <h1 class="text-6xl text-white font-semibold">Enhance Your <br> Music Experience</h1>
@@ -1128,7 +1128,7 @@
             </div>
         
          </div>
-<div class="grid grid-cols-4 gap-9 mt-20 mb-12 ">
+<div class="grid md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4 gap-9 mt-20 mb-12 ">
     <div class="grid1 G1">
         <a href="" class="group ">
             <div class="bg-[#f5f5f5] h-64 py-3 px-3 relative">
@@ -1606,6 +1606,22 @@
 <div class="viw flex justify-center"><a href="" class="py-3 px-20 text-xl   rounded-md text-white  bg-[#db4444] hover:text-white hover:bg-black transition duration-200">view all</a></div>
 
     </div>
+</section>
+<section class="Featured">
+    <div class="container mx-auto xl:max-w-[1200px]">
+        
+    <div class="todays">
+        <p class="py-5 px-10 font-semibold  text-[#db4444]">Today's</p>
+        
+        </div>
+        <div class="flex items-center gap-x-32 mt-7">
+            <p class="flas text-2xl font-semibold">Browse By Category</p>
+           
+            
+        
+         </div>   
+        
+        </div>
 </section>
 </body>
 </html>
