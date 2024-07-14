@@ -38,5 +38,8 @@
 }
 .mySwiper{
     display:flex;
-    aligin-items:center;
+    align-items: center;
+}
+@media(max-width: 700px){
+    
 }
