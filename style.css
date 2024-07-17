@@ -69,12 +69,12 @@
     object-fit: cover;
 
 }
-.start-row-2-columns-start-2-end-3 {
-    grid-column: 3 / 4
+.strat-row-2-colums-start-2-end-3{
+grid-column: 3 / 4;
 }
-
 .start-row-2-columns-start-3-end-4 {
     grid-column: 4 / 5;
+
 }
 
 

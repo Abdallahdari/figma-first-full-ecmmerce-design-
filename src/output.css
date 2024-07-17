@@ -604,10 +604,6 @@ video {
   bottom: 0px;
 }
 
-.bottom-6 {
-  bottom: 1.5rem;
-}
-
 .left-0 {
   left: 0px;
 }
@@ -632,16 +628,8 @@ video {
   top: 50%;
 }
 
-.-z-0 {
-  z-index: 0;
-}
-
 .z-0 {
   z-index: 0;
-}
-
-.z-10 {
-  z-index: 10;
 }
 
 .m-20 {
@@ -671,10 +659,6 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .mb-7 {
@@ -1206,8 +1190,8 @@ video {
      object-fit: cover;
 }
 
-.start-row-2-columns-start-2-end-3 {
-  grid-column: 3 / 4
+.strat-row-2-colums-start-2-end-3{
+  grid-column: 3 / 4;
 }
 
 .start-row-2-columns-start-3-end-4 {
@@ -1244,10 +1228,6 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-
-.hover\:no-underline:hover {
-  text-decoration-line: none;
 }
 
 .group:hover .group-hover\:visible {
