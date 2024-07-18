@@ -838,6 +838,10 @@ video {
   width: 5rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
