@@ -65,3 +65,10 @@ function getDirection() {
     var direction = window.innerWidth <= 460 ? 'vertical' : 'horizontal';
     return direction;
 }
+const btn=document.querySelectorAll('.btn')
+btn.forEach(b=>b.addEventListener('click',function(e){
+  e.preventDefault()
+  const click=e.target
+
+
+}))
