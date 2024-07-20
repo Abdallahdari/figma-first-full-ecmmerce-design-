@@ -13,9 +13,11 @@
   <link rel="stylesheet" href="style.css">
 
   <script defer src="main.js"></script>
+  <script defer src="long.js"></script>
+
     <title>E-comerce</title>
 </head>
-<body>
+<body class="">
     <div class=" bg-[#000] ">
     <div class="container mx-auto xl:max-w-[1200px]">
         
@@ -39,12 +41,11 @@
         <nav class="navbar  flex items-center justify-between    ">
           <h1 class="Logo text-2xl font-semibold">Exclusive</h1>  
 <ul class="links sm:hidden md:flex items-center space-x-5 ">
-    <li><a class="hover:underline transition duration-1000" href="#">Home</a></li>
+    <li><a class="hover:underline transition duration-1000" href="index.html">Home</a></li>
     <li><a  class="hover:underline transition duration-1000"href="#">Conatact</a></li>
-    <li><a  class="hover:underline transition duration-1000"href="login.html">log in</a></li>
-    <li><a  class="hover:underline transition duration-1000"href="create-account.html">Sign up</a></li>
+    <li><a  class="hover:underline transition duration-1000"href="#">About</a></li>
 </ul>
-<div class="flex space-x-4">
+<div class="flex space-x-4 items-center">
     <div class="flex relative ">
         <input type="text" placeholder="Search" class=" py-2 rounded pl-6 pr-10 outline-none bg-[#f5f5f5] flex-1 w-[250px]">
         <svg class="absolute right-4 top-1/2  -translate-y-1/2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +65,11 @@
             <path d="M10 16.6667H25.59C25.7056 16.6667 25.8177 16.6267 25.9072 16.5535C25.9966 16.4802 26.0579 16.3782 26.0806 16.2648L27.8806 7.26479C27.8951 7.19222 27.8934 7.11733 27.8755 7.04552C27.8575 6.97371 27.8239 6.90678 27.7769 6.84956C27.73 6.79234 27.6709 6.74625 27.604 6.71462C27.5371 6.68299 27.464 6.66661 27.39 6.66666H8" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </a> 
-            
+          <div>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+            </button>
+          </div>  
 
 </div>
 <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
