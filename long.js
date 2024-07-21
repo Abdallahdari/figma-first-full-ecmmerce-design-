@@ -14,7 +14,7 @@ btnlogin.addEventListener('click', function(e) {
   if (namee.value === '' || password.value === '') {
     console.log('no email or password entered');
   } else if (namee.value === data1.Email && password.value === data1.pin) {
-window.location.href='account-1.html'
+window.location.href='user1.html'
 } else {
     console.log('wrong username or password');
   }
