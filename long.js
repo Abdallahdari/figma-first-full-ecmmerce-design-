@@ -16,6 +16,6 @@ btnlogin.addEventListener("click", function (e) {
   } else if (namee.value === data1.Email && password.value === data1.pin) {
     window.location.href = "user1.html";
   } else {
-    console.log("wrong username or password");
+    alert("wrong username or password");
   }
 });
